@@ -2,6 +2,11 @@
 <html>
 <head>
     <title>VOS PODES ALAN</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body> 
     <h1>Mi primer heading</h1>
@@ -11,7 +16,30 @@
         , SABES QUE SOS CAPAZ<br>
         PERO SOS DEMASIADO PAJERO.
     </p>
-     <!--Ul es una lista no ordenada -->
+    <table style="width: 500px;">
+        <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paco</td>
+                <td>Gratis</td>
+            </tr>     
+            <tr>
+                <td>Marihuana</td>
+                <td>800$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 800$</td>
+        </tfoot>
+    </table> 
+    
+    <!--Ul es una lista no ordenada -->
      <ul>
         <li>Elemento 1</li>
         <li>Elemento 2</li>
